@@ -1,0 +1,54 @@
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.08em;
+    font-size: 4.48em;
+  }
+  
+  h2 {
+    padding-left: 0.848rem;
+  }
+  
+  article {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+    gap: 1.6rem;
+  }
+  
+  article a {
+    padding: 0.528rem 1.168rem 0.848rem;
+    border-radius: 0.528rem;
+    transition: 0.2s ease-in-out;
+    background-color: #15171c;
+  }
+  
+  article a:hover {
+    background-color: rgb(33, 38, 45);
+    transition: all 0.2s ease-in-out 0s;
+  }
+  
+  article a:hover > p {
+    color: #484f58 !important;
+  }
+  
+  article a:hover > h3 {
+    color: rgb(201, 209, 217) !important;
+  }
+  
+  h3 {
+    color: #484f58;
+  }
+  
+  p {
+    color: #30363d;
+    font-size: 1.4rem;
+  }
+  
+  h3,
+  p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    line-height: 1.3;
+  }
+  
